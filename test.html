@@ -6,5 +6,11 @@
 </head>
 
 <body>
-  <canvas width = "500px" height = "500px"></canvas>
+  <canvas id = "area" width = "500px" height = "500px"></canvas>
+  
+  <script>
+    var C = document.getElementById ("area").getContext ("2d");
+    
+    C.fillRect (10, 10, 100, 70);
+  </script>
 </body>
