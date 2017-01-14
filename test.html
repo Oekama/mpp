@@ -10,6 +10,10 @@
   
   <script>
     var C = document.getElementById ("area").getContext ("2d");
+    var G = C.createLinearGradient (0, 0, 100, 0);
+    
+    G.addColorStop (0, "black");
+    C.addColorStop (1, "white");
     
     C.fillRect (10, 10, 100, 70);
   </script>
